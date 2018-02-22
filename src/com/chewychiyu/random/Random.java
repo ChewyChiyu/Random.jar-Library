@@ -101,5 +101,15 @@ public class Random {
 		return _integer_inclusive(1,_facets);
 	}
 
+	/* Random binary array with _length sides*/
+	public static byte[] _binary_array(int _length){
+		byte[] _array = new byte[_length];
+		for(int _i = 0; _i < _length; _i++){
+			_array[_i] = (byte) _integer_inclusive(0,1);
+		}
+		return _array;
+	}
+	
+	
 }
 
