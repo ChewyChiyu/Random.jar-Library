@@ -11,9 +11,9 @@ public class TestClass {
 	
 	TestClass(){
 		
-	    int[] _input = new int[]{1,2,3,4,5};
-	    double[] _weight = new double[]{.1,.1,.5,.1,.9};
-		System.out.println(Random._pick_weighted(_input, _weight));
+	   String[] str = new String[]{"Test","ues","testsadfasdf"};
+	   while(true)
+		System.out.println(Random._element_of_array(str));
 		
 	}
 	

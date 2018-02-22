@@ -44,40 +44,40 @@ public class Random {
 	
 	/* char array selection */
 	public static char _element_of_array(char[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* int array selection */
 	public static int _element_of_array(int[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* double array selection */
 	public static double _element_of_array(double[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* float array selection */
 	public static float _element_of_array(float[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* long array selection */
 	public static long _element_of_array(long[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* boolean array selection */
 	public static boolean _element_of_array(boolean[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* char array selection */
 	public static short _element_of_array(short[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	/* generic object array selection */
 	public static <T> T _element_of_array(T[] _array){
-		return _array[_integer_exclusive(0,_array.length)];
+		return _array[_integer_inclusive(0,_array.length-1)];
 	}
 	
 	/* Get random element of a generic list */
 	public static <T> T _element_of_list(List<T> _list){
-		return _list.get(_integer_exclusive(0,_list.size()));
+		return _list.get(_integer_inclusive(0,_list.size()-1));
 	}
 	
 	/* 
