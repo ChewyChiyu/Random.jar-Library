@@ -94,5 +94,12 @@ public class Random {
 			return _pick_weighted(_items,_prob);
 		}
 	}
+
+	
+	/* Random roll of dice with _facet sides */
+	public static int _dice_roll(int _facets){
+		return _integer_inclusive(1,_facets);
+	}
+
 }
 

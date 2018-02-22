@@ -1,6 +1,4 @@
 package com.chewychiyu.random_test;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 import com.chewychiyu.random.Random;
 public class TestClass {
@@ -10,10 +8,9 @@ public class TestClass {
 	}
 	
 	TestClass(){
-		
 	   String[] str = new String[]{"Test","ues","testsadfasdf"};
-	   while(true)
-		System.out.println(Random._element_of_array(str));
+	   	for(int _i = 0; _i < 100; _i++)
+		System.out.println(Random._dice_roll(10));
 		
 	}
 	
