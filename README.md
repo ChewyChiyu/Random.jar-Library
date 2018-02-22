@@ -10,7 +10,7 @@ Java Library for Randomness
    Get random integer 
 ```java
    int _rand_int = Random._integer_inclusive(_min,_max);
-   int _rand_int = Random._integer_exclusive(_min,_max;
+   int _rand_int = Random._integer_exclusive(_min,_max);
 ```
    Get random double
 ```java
@@ -27,7 +27,7 @@ Java Library for Randomness
 ```
    Pull random element of list
 ```java
-   Object _o = Random_element_of_list(_object_list);
+   Object _o = Random.element_of_list(_object_list);
 ```
    Random index with weighted probability
 ```java
